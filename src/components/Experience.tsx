@@ -29,7 +29,6 @@ const Experience = () => {
       company: "Shiv jyoti public school , jalandhar",
       period: "2020 - 2022",
       description: [
-        "Excelled in core subjects including Mathematics, Physics, Chemistry, and Biology",
         "Developed critical thinking and analytical abilities through rigorous academic curriculum",
         "Actively participated in extracurricular activities, cultivating leadership and teamwork skills",
       ],

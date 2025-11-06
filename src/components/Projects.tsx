@@ -6,24 +6,26 @@ const Projects = () => {
   const githubProfile = "https://github.com/itsKaviya";
 
   const projects = [
+   {
+  title: "Personal Finance Tracker",
+  description:
+    "Developed a responsive finance tracking application using modern frontend technologies, featuring interactive dashboards and real-time expense visualization.",
+  technologies: ["HTML", "CSS", "JavaScript", "Frontend Development"],
+},
+{
+  title: "Inventory Management System",
+  description:
+    "Built a full-stack inventory management system to handle stock, suppliers, and transactions efficiently, integrating frontend, backend, and database technologies for seamless operation.",
+  technologies: ["React", "Node.js", "Express", "MongoDB", "Full-Stack Development"],
+},
+
     {
-      title: "Personal Finance Tracker",
-      description:
-        "Created a comprehensive finance tracking application using C++ under the Object-Oriented Programming course, implementing efficient data structures and algorithms.",
-      technologies: ["C++", "OOP", "Data Structures"],
-    },
-    {
-      title: "Inventory Management Database",
-      description:
-        "Developed a robust DBMS for managing inventory records using Oracle, with features for tracking stock levels, suppliers, and transactions.",
-      technologies: ["Oracle", "SQL", "Database Design"],
-    },
-    {
-      title: "Maker's Mecca - Local Artisan Marketplace",
-      description:
-        "Designed and built an e-commerce platform for local artisans using WIX drag-and-drop tools, creating an intuitive shopping experience.",
-      technologies: ["WIX", "E-commerce", "UI/UX Design"],
-    },
+  title: "Personal WordPress Website on AWS",
+  description:
+    "Created and hosted a fully functional WordPress website on AWS EC2 with a custom domain name, ensuring scalability, performance, and secure configuration.",
+  technologies: ["WordPress", "AWS EC2", "Domain Hosting", "Web Deployment"],
+},
+
     {
       title: "Travel & Tourism Website with Quiz App",
       description:
